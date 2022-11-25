@@ -5,7 +5,6 @@ public class EnterPointForConsoleOutput {
 
 	public static void main(String[] args) {
 		System.out.println("Starting...");
-		//Create Tom, 19yo, 
 		User tom = new User("Tom",19,User.Levels.NOOB);
 		tom.survivalKit = new ClassicSK();		
 		User jil = new User("Jill",21,User.Levels.PRO);
